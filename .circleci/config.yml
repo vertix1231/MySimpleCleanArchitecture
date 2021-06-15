@@ -31,7 +31,7 @@ jobs:
       #     name: Assemble release build
       #     command: |
       #       ./gradlew assembleRelease
-       - restore_cache:
+       -restore_cache:
           key: android-orb-v1-
       - run:
           name: Chmod permissions
